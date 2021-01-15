@@ -1,0 +1,74 @@
+.navbar-brand{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #eeeeee;
+}
+.na{
+    margin-left: 25px;
+}
+
+.bg-dark {
+ background-color: #efefef;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    margin-left: 18px;
+    color:white;
+    font-weight: 600;
+}
+
+
+.im{
+    margin-left: 70px;
+}
+.navbar-dark .navbar-brand {
+    color: black;
+}
+
+.navbar-brand {
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right:70.5rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar-toggler{
+    background-color:  #3292a6;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+input{
+    margin: 10px;
+}
+
+button{
+    margin-right: 50px;
+    padding-left: 20px !important; 
+    padding-right: 20px !important;
+}
+
+.delete_btn{
+    color: #c82333;
+}
+
+.edit_btn{
+    color: #e0a800;
+}
+
+span[onclick]{
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center!important;
+    margin-top: 100px;
+}

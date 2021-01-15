@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/Student.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><img src="images/MOODLE_thumbnail.png" width="130px" class="im">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+    </ul>
+  </div>
+          
+</nav>       
+    
+    
+     <script>
+
+    function calculate(){
+        var x1 = document.getElementById("num1").value;
+        var x2 = document.getElementById("num2").value;
+        var xr1= x1 * x2;
+        
+         var x3 = document.getElementById("num3").value;
+        var x4 = document.getElementById("num4").value;
+        var xr2= x3 * x4;
+        
+        var x5 = document.getElementById("num5").value;
+        var x6 = document.getElementById("num6").value;
+        var xr3 = x5 * x6
+    
+        var x7 = document.getElementById("num7").value;
+        var x8 = document.getElementById("num8").value;
+        var xr4= x7 * x8
+        
+        
+        var sum = xr1+xr2+xr3+xr4 /(x2+x4+x6+x8);
+       
+        var result = document.getElementById("Result");
+        result.innerHTML = sum/10;
+        /* alert(parseFloat(sum))*/
+    }
+    
+    
+    </script>
+</head>
+
+<body>
+    
+    <section>
+      <div class="container box_1620">
+<div class="banner_inner d-flex align-items-center">
+<div class="banner_content">
+<div class="media">
+<div class="d-flex">
+<img src="images/personal-2.jpg" class="imm">
+</div>
+<div class="media-body">
+<div class="personal_text">
+<h6>Hello Everybody, i am</h6>
+<h3>Ibrahim Mushtaha</h3>
+<h4>Android Developer</h4>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+<ul class="list basic_info">
+<li>29sts September, 2000</li>
+<li>059-760-3456</li>
+<li>businessplan@donald</li>
+<li>Santa monica bullevard</li>
+</ul>
+<hr>
+<h6>To Know your University Modifier<br><br><a href="#sec2"> Click here</a></h6>    
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+        
+        </section>
+    <section id="sec2">
+      <div class="container box_1620">
+          <div class="banner_inner d-flex align-items-center">
+<div class="banner_content">
+<div class="media">
+        <!-- <div class="oo"></div>-->
+    <div class="form">
+        <h4>To Know your Grade write your mark</h4>
+        <div>
+         <input type="text" id="num1" name="num1" placeholder="First Number">
+        <input type="text" id="num2" name="num2" placeholder="Last Number">
+        </div>  
+         <div class="input2">
+         <input type="text" id="num3" name="num3" placeholder="First Number">
+        <input type="text" id="num4" name="num4" placeholder="Last Number">
+        </div>
+         <div>
+         <input type="text" id="num5" name="num5" placeholder="First Number">
+        <input type="text" id="num6" name="num6" placeholder="Last Number">
+        </div>
+         <div>
+         <input type="text" id="num7" name="num7" placeholder="First Number">
+        <input type="text" id="num8" name="num8" placeholder="Last Number">
+        </div>
+        
+           <input type="submit" value="Calculate" class="register" onclick="return calculate()">
+    
+        </div>    
+<h4 class="text">The Result is <hr></h4>
+        <h3 id="Result" class="Result"></h3>
+        
+    </div>
+    </div>
+</div>
+</div>
+        </section>
+
+
+</body>
+
+</html>

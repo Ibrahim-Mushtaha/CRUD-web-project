@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+     
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <img class="img-fluid" src="images/MOODLE_thumbnail.png" alt="" />
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#blog"><a href="index.html"><h5>Home</h5></a></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+     <script src="js/login.js"></script>
+
+</head>
+
+<body>
+    <script src="js/login.js"></script>
+     <section id="Login" class="main-banner" style="background: url('images/banner-01.jpg')" >
+        <div class="oo"></div>
+          <div class="formRegister">
+			<form class="form-detail" name="myForm" method="post" onsubmit=" Login()">
+				<h2 class="wow flipInX">Login</h2>
+				<div class="form-row">
+					<input type="text" id="Name"
+                        name="username" class="input-text" placeholder="Your Name">
+                    
+				</div>
+				<div class="form-row">
+					<input type="password" name="password" id="password" class="input-text" placeholder="Password" >
+				</div>
+				<div classq="form-row-btn wow rollIn">
+                    <input type="submit" class="register" value="Login"  >
+				</div>
+			</form>
+		</div>
+    </section>
+    
+    
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+
+    </script>
+    
+</body>
+</html>

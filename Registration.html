@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <img class="img-fluid" src="images/MOODLE_thumbnail.png" alt="" />
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#blog"><a href="index.html">
+                                <h5>Home</h5>
+                            </a></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</head>
+
+<body>
+    <section id="Register" class="main-banner" style="background: url('images/banner-01.jpg')">
+        <!-- <div class="oo"></div>-->
+        <div class="formRegister">
+            <form class="form-detail" action="model.html">
+                <h2 class="wow flipInX">Registration</h2>
+                <div class="form-row">
+                    <input type="text" name="full-name" id="full-name" class="input-text" placeholder="Your Name" pattern="[a-zA-Z]+[ ][a-zA-Z]+">
+                </div>
+                <div class="form-row">
+                    <input type="text" name="your-email" id="your-email" class="input-text" placeholder="Email Address" title="must contain @" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                </div>
+                <div class="form-row">
+                    <input type="password" name="password" id="password" class="input-text" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                </div>
+                <div class="form-row">
+                    <input type="password" name="comfirm-password" id="comfirm-password" class="input-text" placeholder="Comfirm Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                </div>
+                <div class="form-row">
+                    <select name="Validity">
+                        <option value="Student" selected>Student</option>
+                        <option value="Teacher">Teacher</option>
+                    </select>
+                </div>
+                <div class="form-row-btn wow rollIn">
+                    <input type="button" name="register" class="register" value="Register">
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <script>
+       /* function check(input) {
+            if (document.getElementById('password').value != document.getElementById('comfirm-password').value) {
+                input.setCustomValidity('Password Must be Matching.');
+            }
+        }
+        
+        
+        
+*/
+        
+        
+    </script>
+
+    <script>
+        function validateForm() {
+            var x = document.getElementById["your-email"].value;
+            var pattern = elem.getAttribute("[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$");
+            var re = new RegExp(pattern);
+            if (re.test(x.value)) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+    </script>
+
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/headline.js"></script>
+    <script src="js/parallaxie.js"></script>
+    <script>
+        new WOW().init();
+
+    </script>
+</body>
+
+</html>

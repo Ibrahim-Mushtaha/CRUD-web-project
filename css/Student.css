@@ -1,0 +1,132 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+}
+
+.navbar-brand{
+    margin: 0;
+    padding: 0;
+}
+
+.na{
+    margin-left: 25px;
+}
+
+.bg-dark {
+ background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); !important;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    margin-left: 18px;
+    color:white;
+    font-weight: 600;
+}
+
+
+.im{
+    margin-top: 15PX;
+    margin-left: 70px;
+}
+.navbar-dark .navbar-brand {
+    color: black;
+}
+
+.navbar-brand {
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right:70.5rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar-toggler{
+    background-color:  #3292a6;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+
+.imm{
+    position: relative;
+    margin-top: 0px;
+}
+
+
+.media-body{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+
+.align-items-center{
+    margin-top: 20px;
+    height: 650px;
+    padding: 30px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    margin-bottom: 70px;
+}
+
+
+
+input[type=text], select, textarea {
+  width: 46%; 
+  padding: 5px;   
+    margin: 5px;
+    background-color: #F1F5F7;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical ;
+}
+
+
+.register {
+	background: #dc8e47;
+    text-align: center;
+	border-radius: 6px;
+	width: 150px;
+	border: none;
+margin-top: 20px;
+    margin-left: 5px;
+	font-family: 'Nunito', sans-serif;
+	color: white;
+	font-weight: 700;
+	font-size: 18px;
+    padding: 5px;
+}
+
+
+.text{
+    font-size: 30px;
+    position: relative;
+    margin-left: 175px;
+    margin-top: 80px;
+}
+
+.Result{
+    position: relative;
+    margin-top: 150px;
+    margin-left: -210px;
+    color: #dc8e47;
+
+}
+
+.form{
+    margin-left: 100px;
+}
+
+
+.form h4{
+    padding-right: 20px;
+    margin-bottom: 70px;
+    margin-left: 5px;
+}
